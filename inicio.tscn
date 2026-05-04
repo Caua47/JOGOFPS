@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://di5ofgbfmujpe"]
+
+[ext_resource type="Script" uid="uid://be2ytvupd77kq" path="res://character_body_3d.gd" id="1_q0xg8"]
+[ext_resource type="PackedScene" uid="uid://c6qj2nfnpfaeu" path="res://Para jogos/Characters/character-male-f.fbx" id="1_ylum6"]
+[ext_resource type="Texture2D" uid="uid://dibsy4ylxcmdn" path="res://Para jogos/tile_0057.png" id="3_htw3k"]
+[ext_resource type="PackedScene" uid="uid://cmj78baupwpq3" path="res://arma.tscn" id="3_yogrx"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_q0xg8"]
+data = PackedVector3Array(-1.5, -0.25, 1.5, -1.5, -0.25, -1.5, -1.5, 0.25, -1.5, 1.5, -0.25, -1.5, -1.5, -0.25, -1.5, -1.5, -0.25, 1.5, -1.5, 0.25, -1.5, -1.5, -0.25, -1.5, 1.5, -0.25, -1.5, -1.5, 0.25, -1.5, -1.5, 0.25, 1.5, -1.5, -0.25, 1.5, -1.5, -0.25, 1.5, -1.5, 0.25, 1.5, 1.5, 0.25, 1.5, 1.5, 0.25, 1.5, -1.5, 0.25, 1.5, -1.5, 0.25, -1.5, -1.5, -0.25, 1.5, 1.5, -0.25, 1.5, 1.5, -0.25, -1.5, 1.5, 0.25, 1.5, 1.5, -0.25, 1.5, -1.5, -0.25, 1.5, 1.5, -0.25, -1.5, 1.5, -0.25, 1.5, 1.5, 0.25, 1.5, 1.5, -0.25, -1.5, 1.5, 0.25, -1.5, -1.5, 0.25, -1.5, -1.5, 0.25, -1.5, 1.5, 0.25, -1.5, 1.5, 0.25, 1.5, 1.5, 0.25, 1.5, 1.5, 0.25, -1.5, 1.5, -0.25, -1.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yogrx"]
+
+[node name="Node3D" type="Node3D" unique_id=1439789249]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=79125897]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="StaticBody3D" unique_id=525667291]
+size = Vector3(3, 0.5, 3)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1729098093]
+shape = SubResource("ConcavePolygonShape3D_q0xg8")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=907698581]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40901387, 0)
+script = ExtResource("1_q0xg8")
+
+[node name="character-male-f" parent="CharacterBody3D" unique_id=2075112152 instance=ExtResource("1_ylum6")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, -0.13659602, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/character-male-f" unique_id=1985572856]
+unique_name_in_owner = true
+transform = Transform3D(-1.9991907, 0, -0.056890268, 0, 2, 0, 0.056890268, 0, -1.9991907, -0.0017040893, 0.47847164, -0.067236036)
+fov = 100.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody3D/character-male-f/Camera3D" unique_id=1621698738]
+
+[node name="TextureRect" type="TextureRect" parent="CharacterBody3D/character-male-f/Camera3D/CanvasLayer" unique_id=1454627657]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15.375
+offset_top = -12.25
+offset_right = 15.375
+offset_bottom = 12.25
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_htw3k")
+expand_mode = 1
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1322662772]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
+shape = SubResource("BoxShape3D_yogrx")
+
+[node name="Node3D" parent="CharacterBody3D" unique_id=689956255 instance=ExtResource("3_yogrx")]
+transform = Transform3D(-0.003827338, 0, -1.130762, 0, 0.031106818, 0, 0.028126415, 0, -0.15386991, -0.16910017, 0.055377424, 0.06703183)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1699381218]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 2.4588816, 0)
