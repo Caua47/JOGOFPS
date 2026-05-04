@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cllbtc64r5l73"
+path="res://.godot/imported/square-hq-plate-1x4.obj-f6fba6ef2c2eda888c483c523f1f8c8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square-hq-plate-1x4.obj-f6fba6ef2c2eda888c483c523f1f8c8c.mesh"]
+
+source_file="res://Para jogos/Arma/OBJ format/square-hq-plate-1x4.obj"
+dest_files=["res://.godot/imported/square-hq-plate-1x4.obj-f6fba6ef2c2eda888c483c523f1f8c8c.mesh", "res://.godot/imported/square-hq-plate-1x4.obj-f6fba6ef2c2eda888c483c523f1f8c8c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

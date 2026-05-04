@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmhra0aw8hvge"
+path="res://.godot/imported/round-hq-brick-corner.obj-4c7bcb7f567789ca9b88e1b562385e26.mesh"
+
+[deps]
+
+files=["res://.godot/imported/round-hq-brick-corner.obj-4c7bcb7f567789ca9b88e1b562385e26.mesh"]
+
+source_file="res://OBJ format/round-hq-brick-corner.obj"
+dest_files=["res://.godot/imported/round-hq-brick-corner.obj-4c7bcb7f567789ca9b88e1b562385e26.mesh", "res://.godot/imported/round-hq-brick-corner.obj-4c7bcb7f567789ca9b88e1b562385e26.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmj8afp4wntey"
+path="res://.godot/imported/bevel-lq-plate-4x4.obj-9c354e436da4d35e63bc5096e0f8dbb9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bevel-lq-plate-4x4.obj-9c354e436da4d35e63bc5096e0f8dbb9.mesh"]
+
+source_file="res://OBJ format/bevel-lq-plate-4x4.obj"
+dest_files=["res://.godot/imported/bevel-lq-plate-4x4.obj-9c354e436da4d35e63bc5096e0f8dbb9.mesh", "res://.godot/imported/bevel-lq-plate-4x4.obj-9c354e436da4d35e63bc5096e0f8dbb9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

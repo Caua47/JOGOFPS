@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dodep2i56hy8j"
+path="res://.godot/imported/none-lq-plate-4x8.obj-faad2f452d82b6fa851c3c39a67c9cd1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/none-lq-plate-4x8.obj-faad2f452d82b6fa851c3c39a67c9cd1.mesh"]
+
+source_file="res://Para jogos/Arma/OBJ format/none-lq-plate-4x8.obj"
+dest_files=["res://.godot/imported/none-lq-plate-4x8.obj-faad2f452d82b6fa851c3c39a67c9cd1.mesh", "res://.godot/imported/none-lq-plate-4x8.obj-faad2f452d82b6fa851c3c39a67c9cd1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

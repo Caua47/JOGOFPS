@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bqplwdk8pj4yi"
+path="res://.godot/imported/bevel-lq-brick-2x4.obj-e5247a6f16d3850dc2e5273102728376.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bevel-lq-brick-2x4.obj-e5247a6f16d3850dc2e5273102728376.mesh"]
+
+source_file="res://OBJ format/bevel-lq-brick-2x4.obj"
+dest_files=["res://.godot/imported/bevel-lq-brick-2x4.obj-e5247a6f16d3850dc2e5273102728376.mesh", "res://.godot/imported/bevel-lq-brick-2x4.obj-e5247a6f16d3850dc2e5273102728376.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

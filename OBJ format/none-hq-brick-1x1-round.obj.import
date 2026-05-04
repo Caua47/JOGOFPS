@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ch5f0ei3irys"
+path="res://.godot/imported/none-hq-brick-1x1-round.obj-675230bfe53939153db5a74e51bb0ecd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/none-hq-brick-1x1-round.obj-675230bfe53939153db5a74e51bb0ecd.mesh"]
+
+source_file="res://OBJ format/none-hq-brick-1x1-round.obj"
+dest_files=["res://.godot/imported/none-hq-brick-1x1-round.obj-675230bfe53939153db5a74e51bb0ecd.mesh", "res://.godot/imported/none-hq-brick-1x1-round.obj-675230bfe53939153db5a74e51bb0ecd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

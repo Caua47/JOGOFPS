@@ -1,13 +1,11 @@
 [gd_scene format=3 uid="uid://cmj78baupwpq3"]
 
-[ext_resource type="Script" uid="uid://dd8s7ibxh0u26" path="res://arma.gd" id="1_uya3a"]
 [ext_resource type="Texture2D" uid="uid://bmkqleavw8qk0" path="res://Para jogos/Arma/fan_a_gradient.png" id="1_vp40w"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vp40w"]
 size = Vector3(2.3482666, 2.3996658, 0.34857178)
 
 [node name="Node3D" type="Node3D" unique_id=689956255]
-script = ExtResource("1_uya3a")
 
 [node name="Area3D" type="Area3D" parent="." unique_id=1134454996]
 

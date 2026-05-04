@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bt6vafhh0bgut"
+path="res://.godot/imported/bevel-hq-plate-corner.obj-b72bbfe646a953ec34dc8d7ad8f0380c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bevel-hq-plate-corner.obj-b72bbfe646a953ec34dc8d7ad8f0380c.mesh"]
+
+source_file="res://Para jogos/Arma/OBJ format/bevel-hq-plate-corner.obj"
+dest_files=["res://.godot/imported/bevel-hq-plate-corner.obj-b72bbfe646a953ec34dc8d7ad8f0380c.mesh", "res://.godot/imported/bevel-hq-plate-corner.obj-b72bbfe646a953ec34dc8d7ad8f0380c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

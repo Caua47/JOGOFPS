@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvpmii5e3a1pq"
+path="res://.godot/imported/square-lq-plate-1x2.obj-f38b19d1ff694d73ba8084620f4f7bdf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square-lq-plate-1x2.obj-f38b19d1ff694d73ba8084620f4f7bdf.mesh"]
+
+source_file="res://OBJ format/square-lq-plate-1x2.obj"
+dest_files=["res://.godot/imported/square-lq-plate-1x2.obj-f38b19d1ff694d73ba8084620f4f7bdf.mesh", "res://.godot/imported/square-lq-plate-1x2.obj-f38b19d1ff694d73ba8084620f4f7bdf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

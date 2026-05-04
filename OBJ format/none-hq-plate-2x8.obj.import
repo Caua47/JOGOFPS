@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bqp3p3ai4rktt"
+path="res://.godot/imported/none-hq-plate-2x8.obj-08aa3c041886bf6533d63d8473ee3a10.mesh"
+
+[deps]
+
+files=["res://.godot/imported/none-hq-plate-2x8.obj-08aa3c041886bf6533d63d8473ee3a10.mesh"]
+
+source_file="res://OBJ format/none-hq-plate-2x8.obj"
+dest_files=["res://.godot/imported/none-hq-plate-2x8.obj-08aa3c041886bf6533d63d8473ee3a10.mesh", "res://.godot/imported/none-hq-plate-2x8.obj-08aa3c041886bf6533d63d8473ee3a10.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

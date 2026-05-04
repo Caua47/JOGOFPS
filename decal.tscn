@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://8b5wi2qdcl4b"]
+
+[ext_resource type="Texture2D" uid="uid://cxqj3caf1f5va" path="res://Para jogos/Arma/shuriken.png" id="1_rnc8w"]
+
+[node name="Node3D" type="Node3D" unique_id=225578261]
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=1113378008]
+transform = Transform3D(0.05, 0, 0, 0, -2.1855695e-09, -0.05, 0, 0.05, -2.1855695e-09, 0, 0, 0)
+texture = ExtResource("1_rnc8w")

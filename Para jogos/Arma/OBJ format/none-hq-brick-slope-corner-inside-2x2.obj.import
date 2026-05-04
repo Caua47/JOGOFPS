@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dr8v80rfd8bbc"
+path="res://.godot/imported/none-hq-brick-slope-corner-inside-2x2.obj-c75d55b3bc14ae33fc54404e7ee219f6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/none-hq-brick-slope-corner-inside-2x2.obj-c75d55b3bc14ae33fc54404e7ee219f6.mesh"]
+
+source_file="res://Para jogos/Arma/OBJ format/none-hq-brick-slope-corner-inside-2x2.obj"
+dest_files=["res://.godot/imported/none-hq-brick-slope-corner-inside-2x2.obj-c75d55b3bc14ae33fc54404e7ee219f6.mesh", "res://.godot/imported/none-hq-brick-slope-corner-inside-2x2.obj-c75d55b3bc14ae33fc54404e7ee219f6.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
