@@ -1,4 +1,5 @@
 extends CharacterBody3D
+@onready var arma = preload("res://arma.tscn")
 
 
 const SPEED = 3
@@ -15,7 +16,6 @@ func _unhandled_input(event):
 		$"%CharacterBody3D/character-male-f/Camera3D".rotation.x += -event.relative.y * 0.01
 		$"%CharacterBody3D/character-male-f/Camera3D".rotation.x = clamp($"%CharacterBody3D/character-male-f/Camera3D".rotation.x, deg_to_rad(-30), deg_to_rad(60))
 func atirar_raio_da_camera_fps(mouse_pos: Vector2):
-
 	var camera = get_viewport().get_camera_3d()
 	var origin = camera.project_ray_origin(mouse_pos)
 	var end = origin + camera.project_ray_normal(mouse_pos) * 1000
@@ -40,3 +40,4 @@ func atirar_projetil(from):
 	if alvo != null:
 		if alvo.collider.has_method("dano"):
 			alvo.collider.dano(50)
+	print("bala bolada")
